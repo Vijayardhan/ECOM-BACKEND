@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Product 1",
+      "price": 19.99,
+      "description": "Description of Product 1",
+      "thumbnail": "path/to/product1-thumbnail.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Product 2",
+      "price": 29.99,
+      "description": "Description of Product 2",
+      "thumbnail": "path/to/product2-thumbnail.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Product 3",
+      "price": 14.99,
+      "description": "Description of Product 3",
+      "thumbnail": "path/to/product3-thumbnail.jpg"
+    }
+  ]
+}

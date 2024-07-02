@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "title": "Product 1",
+    "price": 19.99,
+    "description": "Description for Product 1",
+    "thumbnail": "thumbnail1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Product 2",
+    "price": 29.99,
+    "description": "Description for Product 2",
+    "thumbnail": "thumbnail2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Product 3",
+    "price": 39.99,
+    "description": "Description for Product 3",
+    "thumbnail": "thumbnail3.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Product 4",
+    "price": 49.99,
+    "description": "Description for Product 4",
+    "thumbnail": "thumbnail4.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Product 5",
+    "price": 59.99,
+    "description": "Description for Product 5",
+    "thumbnail": "thumbnail5.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Product 6",
+    "price": 69.99,
+    "description": "Description for Product 6",
+    "thumbnail": "thumbnail6.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Product 7",
+    "price": 79.99,
+    "description": "Description for Product 7",
+    "thumbnail": "thumbnail7.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Product 8",
+    "price": 89.99,
+    "description": "Description for Product 8",
+    "thumbnail": "thumbnail8.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Product 9",
+    "price": 99.99,
+    "description": "Description for Product 9",
+    "thumbnail": "thumbnail9.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Product 10",
+    "price": 109.99,
+    "description": "Description for Product 10",
+    "thumbnail": "thumbnail10.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Product 11",
+    "price": 119.99,
+    "description": "Description for Product 11",
+    "thumbnail": "thumbnail11.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Product 12",
+    "price": 129.99,
+    "description": "Description for Product 12",
+    "thumbnail": "thumbnail12.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Product 13",
+    "price": 139.99,
+    "description": "Description for Product 13",
+    "thumbnail": "thumbnail13.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Product 14",
+    "price": 149.99,
+    "description": "Description for Product 14",
+    "thumbnail": "thumbnail14.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Product 15",
+    "price": 159.99,
+    "description": "Description for Product 15",
+    "thumbnail": "thumbnail15.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Product 16",
+    "price": 169.99,
+    "description": "Description for Product 16",
+    "thumbnail": "thumbnail16.jpg"
+  },
+  {
+    "id": "17",
+    "title": "Product 17",
+    "price": 179.99,
+    "description": "Description for Product 17",
+    "thumbnail": "thumbnail17.jpg"
+  },
+  {
+    "id": "18",
+    "title": "Product 18",
+    "price": 189.99,
+    "description": "Description for Product 18",
+    "thumbnail": "thumbnail18.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Product 19",
+    "price": 199.99,
+    "description": "Description for Product 19",
+    "thumbnail": "thumbnail19.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Product 20",
+    "price": 209.99,
+    "description": "Description for Product 20",
+    "thumbnail": "thumbnail20.jpg"
+  },
+  {
+    "id": "21",
+    "title": "Product 21",
+    "price": 219.99,
+    "description": "Description for Product 21",
+    "thumbnail": "thumbnail21.jpg"
+  },
+  {
+    "id": "22",
+    "title": "Product 22",
+    "price": 229.99,
+    "description": "Description for Product 22",
+    "thumbnail": "thumbnail22.jpg"
+  },
+  {
+    "id": "23",
+    "title": "Product 23",
+    "price": 239.99,
+    "description": "Description for Product 23",
+    "thumbnail": "thumbnail23.jpg"
+  },
+  {
+    "id": "24",
+    "title": "Product 24",
+    "price": 249.99,
+    "description": "Description for Product 24",
+    "thumbnail": "thumbnail24.jpg"
+  },
+  {
+    "id": "25",
+    "title": "Product 25",
+    "price": 259.99,
+    "description": "Description for Product 25",
+    "thumbnail": "thumbnail25.jpg"
+  },
+  {
+    "id": "26",
+    "title": "Product 26",
+    "price": 269.99,
+    "description": "Description for Product 26",
+    "thumbnail": "thumbnail26.jpg"
+  },
+  {
+    "id": "27",
+    "title": "Product 27",
+    "price": 279.99,
+    "description": "Description for Product 27",
+    "thumbnail": "thumbnail27.jpg"
+  },
+  {
+    "id": "28",
+    "title": "Product 28",
+    "price": 289.99,
+    "description": "Description for Product 28",
+    "thumbnail": "thumbnail28.jpg"
+  },
+  {
+    "id": "29",
+    "title": "Product 29",
+    "price": 299.99,
+    "description": "Description for Product 29",
+    "thumbnail": "thumbnail29.jpg"
+  },
+  {
+    "id": "30",
+    "title": "Product 30",
+    "price": 309.99,
+    "description": "Description for Product 30",
+    "thumbnail": "thumbnail30.jpg"
+  }
+]
