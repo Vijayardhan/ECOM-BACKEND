@@ -10,10 +10,9 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:3000") // Allow requests from localhost:3000
-                .allowedOrigins("https://ecom-frontend-fawn.vercel.app/")
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
-                .allowCredentials(true) // Allow sending cookies
-                .allowedHeaders("*"); // Allowed headers
+                .allowedOrigins("http://localhost:3000", "https://ecom-frontend-fawn.vercel.app/")
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowCredentials(true)
+                .allowedHeaders("*");
     }
 }

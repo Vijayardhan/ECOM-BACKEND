@@ -16,13 +16,14 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = {"http://localhost:3000", "https://ecom-frontend-fawn.vercel.app/"})
 public class AuthController {
 
     @Autowired
     private UserRepository userRepository;
 
     @Autowired
-    private PasswordEncoder passwordEncoder; // Change to PasswordEncoder interface
+    private PasswordEncoder passwordEncoder;
 
     private final String SECRET_KEY = "secret";
 
@@ -32,7 +33,7 @@ public class AuthController {
         if (existingUser.isPresent()) {
             return ResponseEntity.status(409).body("Username already exists");
         }
-        user.setPassword(passwordEncoder.encode(user.getPassword())); // Use passwordEncoder
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         userRepository.save(user);
         return ResponseEntity.ok("User registered successfully");
     }
@@ -43,12 +44,12 @@ public class AuthController {
 
         if (optionalUser.isPresent()) {
             User foundUser = optionalUser.get();
-            if (passwordEncoder.matches(user.get("password"), foundUser.getPassword())) { // Use passwordEncoder
+            if (passwordEncoder.matches(user.get("password"), foundUser.getPassword())) {
                 String token = Jwts.builder()
                         .setSubject(foundUser.getUsername())
                         .claim("roles", "user")
                         .setIssuedAt(new Date())
-                        .setExpiration(new Date(System.currentTimeMillis() + 864000000)) // 10 days
+                        .setExpiration(new Date(System.currentTimeMillis() + 864000000))
                         .signWith(SignatureAlgorithm.HS512, SECRET_KEY.getBytes())
                         .compact();
                 Map<String, String> response = new HashMap<>();
